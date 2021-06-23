@@ -190,7 +190,7 @@ void Arduino_W25Q16DV::enableWrite()
  * EXTERN DECLARATION
  **************************************************************************************/
 
-Arduino_W25Q16DV flash(SPI,
+Arduino_W25Q16DV flash(SPI1,
 #if defined(ARDUINO_EDGE_CONTROL)
 EDGE_CONTROL_W25Q16DV_CS_PIN
 #else
